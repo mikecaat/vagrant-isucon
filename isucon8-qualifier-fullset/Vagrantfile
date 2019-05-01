@@ -129,7 +129,6 @@ EOF
       GITDIR="/tmp/torb"
       rm -rf ${GITDIR}
       git clone https://github.com/mikecaat/isucon8-qualify.git ${GITDIR}
-      git checkout install-perl-go-only
       (
         cd ${GITDIR}/provisioning
         git checkout install-perl-go-only
